@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+		body,html{
+			background-color: #dedede;
+			height: 105%;
+		}
+        #box{
+            width: 80%;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: row;
+        }
+		#box > .item{
+			flex: 1;
+			margin: 15px;
+		}
+		img{
+			width: 100%;
+			border: 10px solid white;
+			margin-top: 5px;
+			transition: all ease-in 0.2s;  
+		}
+		img:hover{
+			cursor: pointer;
+			transform: scale(1.05);
+			box-shadow: 0px 1px 1px 1px #ccc;
+		}
+    </style>
+    <title></title>
+</head>
+<body>
+	<p id="pp"></p>
+    <div id="box">
+       <div class="item" id="pd1"></div>
+       <div class="item" id="pd2"></div>
+       <div class="item" id="pd3"></div>
+       <div class="item" id="pd4"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
